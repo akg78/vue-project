@@ -1,10 +1,12 @@
 <script setup>
-import MyComponent from './components/MyComponent.vue';
+import EmployeeForm from './components/EmployeeForm.vue';
+// import MyComponent from './components/MyComponent.vue';
 
 </script>
 
 <template>
-<MyComponent/>
+<!-- <MyComponent/> -->
+<EmployeeForm/>
 </template>
 
 <style lang="scss" scoped>
