@@ -1,12 +1,12 @@
 <script setup>
-import EmployeeForm from './components/EmployeeForm.vue';
-// import MyComponent from './components/MyComponent.vue';
+import NavbarPage from './components/NavbarPage.vue';
+import HomePage from './views/HomePage.vue';
 
 </script>
 
 <template>
-<!-- <MyComponent/> -->
-<EmployeeForm/>
+  <NavbarPage/>
+  <HomePage /> 
 </template>
 
 <style lang="scss" scoped>
@@ -17,10 +17,4 @@ import EmployeeForm from './components/EmployeeForm.vue';
   border: none;
   font-family: "Raleway", sans-serif;
 }
-
-
-
-
-
-
 </style>
