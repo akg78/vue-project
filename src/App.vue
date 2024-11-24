@@ -1,11 +1,11 @@
 <script setup>
-import NavbarPage from './components/NavbarPage.vue';
+// import NavbarPage from './components/NavbarPage.vue';
 import HomePage from './views/HomePage.vue';
 
 </script>
 
 <template>
-  <NavbarPage/>
+  <!-- <NavbarPage/> -->
   <HomePage /> 
 </template>
 
