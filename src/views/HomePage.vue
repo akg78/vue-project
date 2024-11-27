@@ -68,7 +68,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="main-about-content" >Lorem ipsum dolor sit amet. Est enim ipsam est quod earum qui unde obcaecati ad adipisci quam.
+                    <div class="main-about-content">Lorem ipsum dolor sit amet. Est enim ipsam est quod earum qui unde
+                        obcaecati ad
+                        adipisci quam.
                         Est ratione
                         voluptate aut odit dolores qui nisi earum.
 
@@ -169,7 +171,6 @@ const toggleDropdown = (dropdown) => {
 </script>
 
 <style lang="scss" scoped>
-
 /* Variables */
 $navbar-bg-color: #1b1b1b;
 $navbar-link-color: #10898d;
@@ -358,19 +359,28 @@ $font-family: 'Inter';
 
                     &.sidebar__dropdown--child {
                         padding-left: 1.5rem;
+                        background-color: #f5f5f5;
+                        border-radius: 4px;
                     }
 
                     li {
-                        padding: 0.5rem 0;
+                        padding: 0.5rem;
+                        background-color: #f5f5f5;
+                        border-radius: 4px;
 
                         a {
                             color: #000;
                             text-decoration: none;
-                            transition: color 0.3s;
+                            transition: color 0.2s;
 
                             &:hover {
-                                color: #000;
+                            color: white;
+                                
                             }
+                        }
+
+                        &:hover {
+                            background-color: #10898d;
                         }
                     }
                 }
@@ -396,6 +406,7 @@ $font-family: 'Inter';
                 .img-render {
                     display: flex;
                     gap: 10rem;
+                    margin-top: 6px;
 
                     .center {
                         display: flex;
@@ -435,8 +446,8 @@ $font-family: 'Inter';
                 }
             }
 
-            .main-about-content{
-                margin-top: 200px;
+            .main-about-content {
+                margin-top: 180px;
                 padding: 20px
             }
         }
